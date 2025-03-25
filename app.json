@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Astronut",
+    "slug": "future",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.khalidmohd.future"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11a1f592-a336-4758-ad9a-cfb3e1141e10"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/11a1f592-a336-4758-ad9a-cfb3e1141e10"
+    },
+    "ios": {}
+  }
+}

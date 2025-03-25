@@ -44,3 +44,4 @@ yarn-error.*        # Yarn error logs
 
 # Additional project-specific ignored files
 # Add any other files or directories that should be ignored herecd 
+node_modules/
