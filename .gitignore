@@ -1,0 +1,46 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/        # Node.js packages
+.git/                # Git repository data
+*.log                # Log files
+.env                 # Environment variables
+
+# Expo
+.expo/               # Expo files
+dist/                # Distribution files
+web-build/           # Web build output
+expo-env.d.ts       # Expo environment TypeScript definitions
+
+# Native
+*.orig.*            # Original files
+*.jks                # Java Keystore files
+*.p8                 # Apple Push Notification files
+*.p12                # iOS certificate files
+*.key                # Key files
+*.mobileprovision    # iOS provisioning profiles
+
+# Metro
+.metro-health-check* # Metro bundler health check files
+
+# Debug
+npm-debug.*         # npm debug logs
+yarn-debug.*        # Yarn debug logs
+yarn-error.*        # Yarn error logs
+
+# macOS
+.DS_Store           # macOS Finder metadata files
+*.pem               # PEM files
+
+# Local environment files
+.env*.local         # Local environment variable files
+
+# TypeScript
+*.tsbuildinfo       # TypeScript build info files
+
+# Ignore generated native directories
+/android            # Android build files
+/ios                # iOS build files
+
+# Additional project-specific ignored files
+# Add any other files or directories that should be ignored herecd 
